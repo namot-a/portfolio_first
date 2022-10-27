@@ -161,6 +161,8 @@ body {
     margin-right: 31px;
     background-color: #fff;
     margin-top: -40px;
+    padding: 10px 10px;
+    
 }
 
 .card__image{
@@ -173,13 +175,98 @@ body {
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
-    font-size: 26px;
+    font-size: 22px;
     font-weight: 400;
+    font-family: 'Tinos', serif;
+    
 }
 
 .card__desc{
     text-align: center;
-    font-size: 26px;
+    font-size: 20px;
     font-weight: 400;
+    color: #656363;
+    font-family: 'Tinos', serif;
+
 }
 
+.card__title span {
+    color: #BC9060  ;
+}
+
+
+/* HOSROTY */
+
+.history{
+    margin-top: 166px;
+}
+
+.history__title{
+    font-size: 54px;
+    font-weight: 400;
+    font-family: 'Tinos', serif;
+    width: 444px;
+    margin-top: 21px;
+    text-align: center;
+}
+
+.history__title span {
+    color: #BC9060  ;
+}
+
+
+.history__desc{
+    color: #656363;
+    font-size: 16px;
+    width: 444px;
+    text-align: center;
+}
+
+.history__number{
+    display: flex;
+    justify-content: center;
+    width: 444px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+
+.number__item{
+    margin-right: 60px;
+    text-align: center;
+    font-size: 40px;
+    color: #BC9060;
+}
+
+.number__item span{
+ display: block;
+ color: #000;
+}
+
+.history__holder{
+    display: flex;
+    justify-content: space-between;
+}
+
+.history__images{
+    position: relative;
+}
+
+.images__1{
+    position: absolute;
+    z-index: 999;
+    top: -123px;
+    left: -454px;
+}
+.images__2{
+    position: absolute;
+    z-index: 999;
+    top: -34px;
+    left: -253px;
+}
+.images__3{
+    position: absolute;
+    z-index: 999;
+    top: 100px;
+    left: -416px;       
+}
